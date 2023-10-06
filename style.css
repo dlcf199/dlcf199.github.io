@@ -55,6 +55,7 @@ table {
 	--header-font: "Libre Baskerville", serif;
 	--button-font: "Libre Baskerville", serif;
 	--body-font: "Libre Baskerville", serif;
+	--sans-serif: "Roboto", sans-serif;
 	--header-color: #000000;
 }
 
@@ -177,6 +178,16 @@ p{
 	font-weight: 700;
 	line-height: normal;
 	text-align: left;
+	line-height: 1.3;
+}
+
+.disclaimer{
+	font-family: var(--sans-serif);
+	opacity: 0.5;
+	font-weight: 400;
+	line-height: normal;
+	text-align: center;
+	width: 100%;
 	line-height: 1.3;
 }
 
