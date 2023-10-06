@@ -145,7 +145,6 @@ button:hover{
 	width: 100%;
 	min-height: 100vh;
 	min-height: 100svh;
-	position: relative;
 }
 
 #header, #footer{
@@ -155,6 +154,10 @@ button:hover{
 	justify-content: space-between;
 	--header-color: #ffffff;
 	text-shadow: 2px 2px 4px black;
+}
+
+#content{
+	padding-bottom: 8px;
 }
 
 #footer{
@@ -190,9 +193,6 @@ p{
 	text-align: center;
 	width: 100%;
 	font-size: 15px;
-    position: absolute;
-    bottom: 8px;
-    left: 0px;
 }
 
 .cards{
