@@ -262,6 +262,10 @@ p{
 	text-align: left;
 }
 
+.fa-brands, .fab {
+    font-size: 24px;
+}
+
 @media (max-width: 640px){
 	#header{
 		padding: 32px;
