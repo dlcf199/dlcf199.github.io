@@ -121,7 +121,7 @@ button{
 	transition: 0.1s background;
 }
 
-button:has(span.material-symbols-outlined){
+button:has(span.material-symbols-outlined), button:has(i.fa-brands){
 	padding-left: 16px;
 }
 
