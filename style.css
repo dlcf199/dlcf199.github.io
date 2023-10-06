@@ -75,12 +75,14 @@ iframe{
 
 h1{
 	font-family: var(--header-font);
+	font-style: italic;
 	font-size: 64px;
-	font-weight: 700;
+	font-weight: 400;
 	line-height: normal;
 }
 h3{
 	font-family: var(--header-font);
+	font-style: italic;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: normal;
@@ -88,7 +90,8 @@ h3{
 
 h6{
 	font-family: var(--header-font);
-	font-weight: 700;
+	font-style: italic;
+	font-weight: 400;
 	font-size: 32px;
 }
 
