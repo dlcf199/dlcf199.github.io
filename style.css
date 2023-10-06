@@ -55,7 +55,7 @@ table {
 	--header-font: "Libre Baskerville", serif;
 	--button-font: "Libre Baskerville", serif;
 	--body-font: "Libre Baskerville", serif;
-	--header-color: #A69E95;
+	--header-color: #000000;
 }
 
 body{
@@ -129,8 +129,8 @@ button.primary{
 	background: rgb(var(--primary-color));
 }
 button.secondary{
-	background: rgba(var(--primary-color), 0.2);
-	color: inherit;
+	background: rgba(var(--primary-color), 0.3);
+    color: inherit;
 }
 button:hover{
 	background: rgba(var(--primary-color), 0.5);
@@ -151,6 +151,7 @@ button:hover{
 	background-size: cover;
 	background-attachment: fixed;
 	justify-content: space-between;
+	--header-color: #ffffff;
 }
 
 #footer{
@@ -210,7 +211,9 @@ p{
 	gap: 8px;
 	flex: 1 0 0;
 	align-self: stretch;
-	background: rgba(255, 255, 255, 0.06);
+	background: rgb(255, 255, 255);
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .card > button{
 	width: 100%;
