@@ -130,6 +130,7 @@ button.primary{
 }
 button.secondary{
 	background: rgba(var(--primary-color), 0.2);
+	color: inherit;
 }
 button:hover{
 	background: rgba(var(--primary-color), 0.5);
@@ -146,7 +147,7 @@ button:hover{
 }
 
 #header, #footer{
-	background-image: url(./bg.png);
+	background-image: url(./bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	justify-content: space-between;
