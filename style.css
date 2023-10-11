@@ -159,6 +159,7 @@ button:hover{
 
 #content{
 	padding-bottom: 8px;
+	align-items: center;
 }
 
 #footer{
@@ -276,6 +277,25 @@ p{
 	align-items: center;
 	gap: 24px;
 	text-align: left;
+}
+
+.trailer{
+	width: auto;
+	height: 80vh;
+	aspect-ratio: 0.56271981242 / 1;
+	max-height: 512px;
+	border-radius: 16px;
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.05);
+	box-sizing: content-box;
+	background: rgb(0, 0, 0);
+	object-fit: cover;
+}
+
+.trailerc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
 }
 
 .fa-brands, .fab {
