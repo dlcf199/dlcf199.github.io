@@ -156,6 +156,27 @@ button:hover{
 	text-shadow: 2px 2px 4px #00000059;
 	background-position: 60% 70%;
 }
+.logos > img:nth-child(1){
+	background: rgba(var(--primary-color), 0.2);
+	width: auto;
+	height: auto;
+	padding: 8px;
+	border-radius: 100px;
+	backdrop-filter: blur(15px) saturate(180%);
+}
+.logos{
+	display: flex;
+	flex-direction: row;
+	gap: 16px;
+	align-items: center;
+	width: min-content;
+}
+.logos .I{
+	width: 1.5px;
+	height: 32px;
+	background: rgba(255, 255, 255, 0.473);
+	border-radius: 100vw;
+}
 
 #content{
 	padding-bottom: 8px;
@@ -300,6 +321,101 @@ p{
 
 .fa-brands, .fab {
     font-size: 24px;
+}
+
+.carrousel-c{
+	position: relative;
+}
+
+.carrousel{
+	display: flex;
+	flex-direction: row;
+	scroll-behavior: smooth;
+	gap: 16px;
+	overflow-x: auto;
+	margin: 0px -24px;
+	padding: 0px 104px 16px 24px;
+	-webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+  	mask-image: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 2%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+.carrousel-c button{
+	width: 64px;
+	height: 64px;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 16px 20px 20px;
+	margin: 0;
+	background: rgb(var(--primary-color));
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.25);
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	z-index: 2;
+	transform: translateY(-50%);
+	transition: 0.1s filter;
+}
+
+.carrousel-c button:hover{
+	filter: brightness(1.2);
+}
+
+.carrousel-c button:active{
+	filter: brightness(0.8);
+}
+
+.carrousel::-webkit-scrollbar{
+	height: 6px;
+	width: 0px;
+}
+.carrousel::-webkit-scrollbar-track{
+	height: 6px;
+	background: rgba(var(--primary-color), 0.2);
+}
+.carrousel::-webkit-scrollbar-thumb{
+	background: rgba(var(--primary-color), 0.5);
+}
+.carrousel::-webkit-scrollbar-thumb:hover{
+	background: rgba(var(--primary-color), 1);
+}
+
+.personajes-c{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.card.personaje > img{
+	width: 256px;
+	height: 256px;
+	object-fit: cover;
+}
+
+.card.personaje p.color{
+	color: rgb(var(--primary-color));
+	font-family: Libre Baskerville;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.card.personaje h5{
+	margin: 0;
+	line-height: normal;
+	height: auto;
+}
+
+.card.personaje{
+	width: 256px;
+	min-width: 256px;
+}
+
+.card.personaje > .content{
+	gap: 0px;
+	align-items: center;
+	padding: 16px;
 }
 
 @media (max-width: 640px){
