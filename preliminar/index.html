@@ -1,1 +1,227 @@
-a
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La dama del alba</title>
+    <meta name="description" content="Adaptación de la obra de teatro La dama del alba, de Alejandro Casona">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="section" id="header">
+        <div class="logos">
+            <img src="logo_2.svg"
+            alt="Logotipo de La dama del alba"
+            height="56"
+            width="50"
+            style="filter: drop-shadow(2px 2px 4px black);">
+            <div class="I"></div>
+            <img src="logo.svg"
+            alt="Logotipo de Colegio Fasta Santo Domingo de Guzman"
+            height="56"
+            width="50"
+            style="filter: drop-shadow(2px 2px 4px black);">
+        </div>
+        <div class="space"></div>
+        <div class="bottom">
+            <div class="dtext">
+                <h3>Adaptación de 3ºA</h3>
+                <h1>La dama del alba</h1>
+            </div>
+            <button class="primary"
+                onclick="scrollToContent();">
+                <span class="material-symbols-outlined">arrow_drop_down</span>
+                Ver más
+            </button>
+        </div>
+    </div>
+    <div class="section" id="content">
+        <p>
+            Somos un grupo de estudiantes del colegio Fasta Santo Domingo de Guzmán que hemos adaptado la obra de teatro La dama del alba, de Alejandro Casona. Hemos trabajado durante varios meses en este proyecto y estamos muy ilusionados por compartir con ustedes nuestra versión de esta obra clásica. Los invitamos a que vengan a ver nuestra representación en el CPC Colón el 24 de noviembre.
+        </p>
+        <div class="card fullscreen">
+            <div class="content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.6574329668642!2d-64.25434172419232!3d-31.396007995266796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329f30173e8247%3A0x2cc606279b918c6!2zQ1BDIE7CsDQgQ29sw7Nu!5e0!3m2!1ses-419!2sar!4v1695036795427!5m2!1ses-419!2sar"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        title="Google Maps iframe"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <button class="primary"
+                    onclick="openLink('https://maps.app.goo.gl/WejRWJSnbjxJprCD8')">
+                <span class="material-symbols-outlined">location_on</span>
+                Ver en Google Maps
+            </button>
+        </div>
+        <div class="personajes-c">
+            <h6>Personajes</h6>
+            <div class="carrousel-c">
+                <div class="carrousel">
+                    <div class="card personaje">
+                        <img src="./personajes/peregrina.webp" alt="">
+                        <div class="content">
+                            <p class="color">Uma Olea</p>
+                            <h5>Peregrina</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/telva.webp" alt="">
+                        <div class="content">
+                            <p class="color">Guadalupe Vergara</p>
+                            <h5>Telva</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/madre.webp" alt="">
+                        <div class="content">
+                            <p class="color">Lara Brenzoni</p>
+                            <h5>Madre</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Lucia Mosman</p>
+                            <h5>Adela</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Lucía Alvarez</p>
+                            <h5>Angélica</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/dorina.webp" alt="">
+                        <div class="content">
+                            <p class="color">Mariela Velasquez</p>
+                            <h5>Dorina</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Francisco Curti</p>
+                            <h5>Abuelo</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Agustín Romero</p>
+                            <h5>Martin</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Ian Guardia</p>
+                            <h5>Quico</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Juan Ignacio Gonzalo Pesci</p>
+                            <h5>Andrés</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Felipe Seyral</p>
+                            <h5>Falin</h5>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="cScroll(this.parentElement.children[0])">
+                    <span class="material-symbols-outlined">keyboard_arrow_right</span>
+                </button>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <div class="content">
+                    <h5>Precio</h5>
+                    <div class="price">
+                        <p>$1.000</p>
+                        <p>/+16</p>
+                    </div>
+                    <div class="price">
+                        <p>$750</p>
+                        <p>/niños</p>
+                    </div>
+                </div>
+                <button class="secondary"
+                        onclick="openLink('https://forms.gle/ZnyRG9oVcWDHruL88')">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                    Comprar entradas
+                </button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h5>Fecha</h5>
+                    <p>24 de noviembre, hora no definida</p>
+                </div>
+                <button class="secondary"
+                        onclick="openLink('https://calendar.google.com/calendar/render?action=TEMPLATE&text=Obra+de+teatro+3A&details=La+dama+del+alba+de+Alejandro+Casona&dates=20231124T000000/20231124T240000')">
+                    <span class="material-symbols-outlined">calendar_add_on</span>
+                    Agregar a calendario
+                </button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h5>¿Quienes somos?</h5>
+                    <p>Somos un grupo de estudiantes del colegio Fasta Santo Domingo de Guzmán</p>
+                </div>
+                <button class="secondary"
+                        onclick="openLink('https://santodomingo.redfasta.edu.ar/')">
+                    <span class="material-symbols-outlined">open_in_new</span>
+                    Visitar sitio web
+                </button>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h5>Noticias</h5>
+                    <p>Puedes encontrar novedades y actualizaciones en nuestro Instagram</p>
+                </div>
+                <button class="secondary"
+                        onclick="openLink('https://www.instagram.com/ladamadelalba.obra/')">
+                    <i class="fa-brands fa-instagram"></i>
+                    @ladamadelalba.obra
+                </button>
+            </div>
+        </div>
+        <div class="trailerc">
+            <h6>Trailer</h6>
+            <video src="output.webm" class="trailer" controls></video>
+        </div>
+        <center style="width: 100%; display: flex; justify-content: center;">
+                <div class="formcta">
+                <h6>¿Qué estás esperando?</h6>
+                <button class="primary"
+                            onclick="openLink('https://forms.gle/ZnyRG9oVcWDHruL88')">
+                    Completar formulario
+                </button>
+            </div>
+        </center>
+    </div>
+    <div id="footer">
+        <div class="bottom">
+            <div class="dtext">
+                <h3>Adaptación de 3ºA</h3>
+                <h1>La dama del alba</h1>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/3cccf41faf.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
