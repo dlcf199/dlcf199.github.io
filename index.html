@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
     <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
 </head>
@@ -28,6 +27,7 @@
             width="50"
             style="filter: drop-shadow(2px 2px 4px black);">
         </div>
+        <div class="space"></div>
         <div class="bottom">
             <div class="dtext">
                 <h3>Adaptación de 3ºA</h3>
@@ -59,18 +59,108 @@
                 Ver en Google Maps
             </button>
         </div>
+        <div class="personajes-c">
+            <h6>Personajes</h6>
+            <div class="carrousel-c">
+                <div class="carrousel">
+                    <!--
+                        * Falta imágen
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Lucia Mosman</p>
+                            <h5>Adela</h5>
+                        </div>
+                    </div>
+                        * Falta imágen
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.jpg" alt="">
+                        <div class="content">
+                            <p class="color">Agustín Romero</p>
+                            <h5>Martin</h5>
+                        </div>
+                    </div>
+                    -->
+                    <div class="card personaje">
+                        <img src="./personajes/peregrina.webp" alt="">
+                        <div class="content">
+                            <p class="color">Uma Olea</p>
+                            <h5>Peregrina</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/madre.webp" alt="">
+                        <div class="content">
+                            <p class="color">Lara Brenzoni</p>
+                            <h5>Madre</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/dorina.webp" alt="">
+                        <div class="content">
+                            <p class="color">Mariela Velasquez</p>
+                            <h5>Dorina</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/angelica.webp" alt="">
+                        <div class="content">
+                            <p class="color">Lucía Alvarez</p>
+                            <h5>Angélica</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/abuelo.webp" alt="">
+                        <div class="content">
+                            <p class="color">Francisco Curti</p>
+                            <h5>Abuelo</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/falin.webp" alt="">
+                        <div class="content">
+                            <p class="color">Felipe Seyral</p>
+                            <h5>Falin</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/telva.webp" alt="">
+                        <div class="content">
+                            <p class="color">Guadalupe Vergara</p>
+                            <h5>Telva</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/andres.webp" alt="">
+                        <div class="content">
+                            <p class="color">Juan Ignacio Gonzalo Pesci</p>
+                            <h5>Andrés</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <img src="./personajes/quico.webp" alt="">
+                        <div class="content">
+                            <p class="color">Ian Guardia</p>
+                            <h5>Quico</h5>
+                        </div>
+                    </div>
+                    <div class="card personaje">
+                        <div class="content" style="justify-content: space-between;">
+                            <h5 style="margin-top: 50%;">...y más</h5>
+                            <p class="color">Próximamente</p>
+                        </div>
+                    </div>
+                </div>
+                <button onclick="cScroll(this.parentElement.children[0])">
+                    <span class="material-symbols-outlined">keyboard_arrow_right</span>
+                </button>
+            </div>
+        </div>
         <div class="cards">
             <div class="card">
                 <div class="content">
                     <h5>Precio</h5>
-                    <div class="price">
-                        <p>$1.000</p>
-                        <p>/+16</p>
-                    </div>
-                    <div class="price">
-                        <p>$750</p>
-                        <p>/niños</p>
-                    </div>
+                    <p>El precio todavía no está definido</p>
                 </div>
                 <button class="secondary"
                         onclick="openLink('https://forms.gle/ZnyRG9oVcWDHruL88')">
@@ -112,10 +202,9 @@
                 </button>
             </div>
         </div>
-
         <div class="trailerc">
             <h6>Trailer</h6>
-            <video src="output.webm" class="trailer" controls></video>
+            <video src="video.mp4" class="trailer" controls></video>
         </div>
         <center style="width: 100%; display: flex; justify-content: center;">
                 <div class="formcta">
@@ -126,7 +215,6 @@
                 </button>
             </div>
         </center>
-        <p class="disclaimer">Imagen de fondo: The Strid by Tim Green from Bradford / Wikimedia Commons / CC BY-SA 2.0</p>
     </div>
     <div id="footer">
         <div class="bottom">

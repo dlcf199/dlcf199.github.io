@@ -20,7 +20,7 @@ function cScroll(element){
     }
     element.scrollBy({
         top: 0,
-        left: 200,
+        left: 272,
         behavior: "smooth"
     });
     setTimeout(() => {
@@ -42,3 +42,12 @@ function cScrollCheck(element){
 document.querySelectorAll(".carrousel").forEach((element) => {
     element.addEventListener("scroll", () => cScrollCheck(element))
 })
+
+window.addEventListener("scroll", () => {
+  if(window.scrollY > (window.innerHeight - 364)){
+      document.querySelector(".logos").classList.add("absolute");
+  }
+  else{
+      document.querySelector(".logos").classList.remove("absolute");
+  }
+});
