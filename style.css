@@ -149,12 +149,12 @@ button:hover{
 }
 
 #header, #footer{
-	background-image: url(./bg.webp);
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	justify-content: space-between;
-	background-repeat: no-repeat;
+	background-image: url(./bg.webp), url(./bg_mr.webp), url(./bg_lr.webp), url(./bg_lwr.webp);
+	background-size: cover, cover, cover, cover;
+	background-attachment: fixed, fixed, fixed, fixed;
+	background-position: center, center, center, center;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+	justify-content: space-between, space-between, space-between, space-between;
 	--header-color: #ffffff;
 	text-shadow: 2px 2px 4px #00000059;
 }
