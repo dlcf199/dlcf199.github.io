@@ -152,7 +152,7 @@ button:hover{
 	background-image: url(./bg.webp);
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: 60% 70%;
+	background-position: center;
 	justify-content: space-between;
 	background-repeat: no-repeat;
 	--header-color: #ffffff;
