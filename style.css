@@ -349,6 +349,7 @@ p{
 	z-index: 2;
 	transform: translateY(-50%);
 	transition: 0.1s filter;
+	overflow: hidden;
 }
 
 .carrousel-c button:hover{
