@@ -154,7 +154,7 @@ button:hover{
 	background-attachment: fixed, fixed, fixed, fixed;
 	background-position: center, center, center, center;
 	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-	justify-content: space-between, space-between, space-between, space-between;
+	justify-content: space-between;
 	--header-color: #ffffff;
 	text-shadow: 2px 2px 4px #00000059;
 }
