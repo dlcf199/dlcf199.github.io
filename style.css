@@ -171,6 +171,7 @@ button:hover{
 	height: auto;
 	padding: 4px;
 	border-radius: 100px;
+	-webkit-backdrop-filter: blur(20px) saturate(180%);
 	backdrop-filter: blur(20px) saturate(180%);
 }
 .logos{
